@@ -27,4 +27,8 @@ public class AddressBook {
         addressbook.addBuddy(homer);
         addressbook.removeBuddy(homer);
     }
+
+    private void doNothing(){
+        return;
+    }
 }
